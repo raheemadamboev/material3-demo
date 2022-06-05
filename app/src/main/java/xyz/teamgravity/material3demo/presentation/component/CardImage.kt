@@ -21,7 +21,6 @@ import kotlin.random.Random
 fun CardImage(
     title: String,
     description: String,
-    modifier: Modifier = Modifier,
 ) {
     Card(
         shape = MaterialTheme.shapes.large,

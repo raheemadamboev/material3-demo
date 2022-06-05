@@ -1,10 +1,16 @@
 <resources>
     <string name="app_name">Material 3 Demo</string>
 
+    <!-- Main -->
+    <string name="demo_title">Great Image</string>
+    <string name="demo_description">Bacon ipsum dolor amet pork shankle beef andouille ball tip. Meatball corned beef swine, strip steak bacon jerky doner tongue biltong pork loin drumstick sausage hamburger.</string>
+    <string name="images">Images</string>
     <string name="mark_as_favorite">Mark as favorite</string>
     <string name="share_with_others">Share with others</string>
 
+    <!-- ContentDescriptions -->
     <string name="cd_image">Image</string>
     <string name="cd_favorite">Favorite</string>
     <string name="cd_share">Share</string>
+    <string name="cd_add">Add</string>
 </resources>

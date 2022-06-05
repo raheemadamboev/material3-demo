@@ -76,3 +76,13 @@ dependencies {
     // flow layout
     implementation "com.google.accompanist:accompanist-flowlayout:0.24.8-beta"
 }
+
+allprojects {
+    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
+        kotlinOptions {
+            freeCompilerArgs += [
+                    "-Xuse-experimental=androidx.compose.material3.ExperimentalMaterial3Api"
+            ]
+        }
+    }
+}

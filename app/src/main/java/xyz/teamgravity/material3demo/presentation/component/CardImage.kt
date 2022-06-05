@@ -27,7 +27,7 @@ fun CardImage(
         colors = CardDefaults.cardColors(
             containerColor = MaterialTheme.colorScheme.surfaceVariant
         ),
-        modifier = Modifier.padding(16.dp)
+        modifier = Modifier.padding(vertical = 4.dp, horizontal = 10.dp)
     ) {
         Image(
             painter = rememberAsyncImagePainter(model = "https://picsum.photos/seed/${Random.nextInt()}/300/200"),

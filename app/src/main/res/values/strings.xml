@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Material 3 Demo</string>
+
+    <string name="mark_as_favorite">Mark as favorite</string>
+    <string name="share_with_others">Share with others</string>
+
+    <string name="cd_image">Image</string>
+    <string name="cd_favorite">Favorite</string>
+    <string name="cd_share">Share</string>
 </resources>

@@ -1,4 +1,4 @@
-package xyz.teamgravity.material3demo.ui.theme
+package xyz.teamgravity.material3demo.presentation.theme
 
 import android.app.Activity
 import android.os.Build

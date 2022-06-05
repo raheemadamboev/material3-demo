@@ -72,7 +72,7 @@ private val LightColorScheme = lightColorScheme(
 @Composable
 fun Material3DemoTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
-    dynamicColor: Boolean = false,
+    dynamicColor: Boolean = true,
     content: @Composable () -> Unit,
 ) {
     val colorScheme = when {
